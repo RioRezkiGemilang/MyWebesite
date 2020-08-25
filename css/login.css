@@ -1,0 +1,37 @@
+body {
+    background-color: #2d2d2d;
+    padding-top: 10px;
+}
+
+.box-login {
+    width: 400px; 
+    margin: auto;
+    position: relative; 
+    border-radius: 20px; text-align: center; 
+    background-color:white;
+    text-align: center;
+    border: blue;
+    padding: 10px;
+    
+
+}
+
+.inputan {
+    width: 300px;
+   border: 1px solid blue;
+   padding: 5px;
+   border-radius: 4px;
+}
+
+.tombol {
+    width: 80px;
+   border: 1px solid ;
+   padding: 5px;
+   background-color:cadetblue;
+   border-radius: 4px;
+}
+
+.tombol:hover {
+   background-color:darksalmon;
+   color: aquamarine;
+}

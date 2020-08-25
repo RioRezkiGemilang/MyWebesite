@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="img/images.jpg" class="rio" height="200px">
+            <h2 style="color:papayawhip;">My Website</h2>
+        </div>
+        <div class="nav">
+            <!-- Untuk Membuat Menu -->
+            <ul>
+                <li><a href="index.html">Home &nbsp;</a></li>
+                <li><a href="about.html">About &nbsp;</a></li>
+                <li><a href="contact.html">Contact &nbsp;</a></li>
+                <li><a href="guestbook.html">GuestBook &nbsp;</a></li>
+
+
+            </ul>
+        </div>
+        <div class="main">
+            <h2>Guest Book</h2>
+            <hr>
+        <form action="#">
+            <table>
+                <tr>
+                    <td>
+                        Nama
+                    </td>
+                    <td>:</td>
+                    <td><input type="text" id="nama" placeholder="Ketikkan Nama Disini..."></td>
+                </tr>
+                <tr>
+                    <td>
+                        E-mail
+                    </td>
+                    <td>:</td>
+                    <td><input type="email" id="email" placeholder="Ketikkan Email Disini..."></td>
+                </tr>
+                <tr>
+                    <td>
+                        Komentar
+                    </td>
+                    <td>:</td>
+                    <td><textarea id="komentar" placeholder="Masukkan Komentar Anda Disini..." cols="40"
+                            rows="8"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <input type="submit" name="submit" value="Simpan" onclick="return bukutamu();">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+        <div id="list" ></div>
+        </div>
+        <div class="footer">Copyright &copy; Rio Rezki Gemilang | 2020  <a href="login.html">Panel Administrator</a> </div> 
+    </div>
+</body>
+
+</html>
